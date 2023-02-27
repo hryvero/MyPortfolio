@@ -15,18 +15,34 @@
         <header class="header">
             <div class="header__container">
                 <a class="logo">Veronika <span> Hr.</span></a>
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
                 <nav class="menu">
                     <ul class="menu__list">
                         <li class="menu__item menu__item_active"><a class="menu__link" href="#">About</a></li>
                         <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
                         <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link menu__link-button">Resume</a></li>
                     </ul>
-                    <a href="#" class="menu__button">Resume</a>
+
                 </nav>
             </div>
         </header>
         <main class="page">
-            smth
+            <section class="about">
+                <div class="about__container">
+                    <div class="about__body">
+                        <img class="about__main-photo" src="./img/selfie.jpeg" alt="selfie" srcset="">
+                        <div class="about__text">
+                            <h2 class="about__text-subtitle subtitle">Hello, I am</h2>
+                            <h1 class="about__text-title title">Veronika Hryhoriv</h1>
+                            <p class="about__text-description description">Full-stack developer</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </main>
         <footer class="footer">footer</footer>
     </div>
